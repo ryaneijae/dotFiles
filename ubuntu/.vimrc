@@ -12,3 +12,8 @@ set smartindent
 
 set number
 set nowrap
+
+autocmd bufnewfile *.py so /home/kdx-software/personal/dotFiles/ubuntu/py_header.txt
+autocmd bufnewfile *.cpp so /home/kdx-software/personal/dotFiles/ubuntu/cpp_header.txt
+autocmd bufnewfile *.sh so /home/kdx-software/personal/dotFiles/ubuntu/sh_header.txt
+
