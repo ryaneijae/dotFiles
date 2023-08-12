@@ -10,8 +10,6 @@ alias ll='ls -lG'
 alias la='ls -alG'
 alias ls='ls -G'
 
-alias cass-1='ssh kdx-software@cassiopeia-1'
-alias ryan='ssh kdx-software@ryanPattern'
 alias vim='nvim'
 alias pytest='python3 -m pytest'
 
