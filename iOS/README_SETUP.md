@@ -11,7 +11,7 @@ It is safe to re-run. It skips any config file that already exists rather than o
 
 ## What it does
 - Installs Homebrew if missing and adds `brew shellenv` to `~/.zprofile` (Apple Silicon path `/opt/homebrew`)
-- Installs `neovim`, `node` (needed by coc.nvim), and the `font-jetbrains-mono-nerd-font` cask
+- Installs `neovim`, `node` (needed by coc.nvim), and the `font-jetbrains-mono-nerd-font` and `rectangle` casks
 - Copies `iOS/.zshrc` to `~/.zshrc`
 - Copies `iOS/nvim` to `~/.config/nvim`
 - Installs vim-plug and runs `:PlugInstall` headlessly

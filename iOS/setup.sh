@@ -30,8 +30,9 @@ brew update
 # neovim: vim is aliased to nvim in .zshrc
 # node:   required by coc.nvim
 # font:   Nerd Font for airline powerline symbols and vim-devicons
+# rectangle: window snapping/tiling
 brew install neovim node
-brew install --cask font-jetbrains-mono-nerd-font
+brew install --cask font-jetbrains-mono-nerd-font rectangle
 
 # --- .zshrc -----------------------------------------------------------------
 if [ ! -f "$HOME/.zshrc" ]; then

@@ -1,6 +1,3 @@
-# Path to you zsh configuation
-export ZSH=$HOME/.zshrc
-
 # Set Colors
 export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
